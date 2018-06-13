@@ -10,6 +10,8 @@ It has 60000/10000 training/testing images of handwritten digits, in black and w
 
 ![Alt text](https://raw.githubusercontent.com/ArthMx/ConvNet/master/MNIST_examples.png)
 
+It is a really easy dataset for CNNs, LeNet-5 (LeCun et al., 1998) was already able to reach an accuracy higher than 99 %, 20 years ago ! Because of the very limited room for improvement left, it's less and less used as a benchmark for image recognition.
+
 ### CIFAR-10
 
 CIFAR-10 is a dataset of 50000/10000 training/testing color images of 32 by 32 pixels. 
@@ -18,7 +20,7 @@ The images corresponds to 10 different classes :
 ![Alt text](https://raw.githubusercontent.com/ArthMx/ConvNet/master/CIFAR10_examples.png)
 
 The diversity, coupled with the low resolution of the images, makes this dataset much harder to classify than MNIST. 
-That is why CIFAR-10 is much more used today as a benchmark than MNIST is.
+That is why CIFAR-10 is much more used today as a benchmark than MNIST. Today's best models are able to do around 95 % accuracy.
 
 ## The Models
 ### Models for MNIST
