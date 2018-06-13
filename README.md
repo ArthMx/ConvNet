@@ -8,20 +8,14 @@ In this repository, I have implemented different convolutional networks for imag
 MNIST is one of the oldest and most used dataset to benchmark image recognition models. 
 It has 60000/10000 training/testing images of handwritten digits, in black and white and of 28 by 28 pixels.
 
+![Alt text](https://raw.githubusercontent.com/ArthMx/ConvNet/master/MNIST_examples.png)
+
 ### CIFAR-10
 
 CIFAR-10 is a dataset of 50000/10000 training/testing color images of 32 by 32 pixels. 
 The images corresponds to 10 different classes :
-- airplane
-- automobile
-- bird
-- cat
-- deer
-- dog
-- frog
-- horse
-- ship
-- truck
+
+![Alt text](https://raw.githubusercontent.com/ArthMx/ConvNet/master/CIFAR10_examples.png)
 
 The diversity, coupled with the low resolution of the images, makes this dataset much harder to classify than MNIST. 
 That is why CIFAR-10 is much more used today as a benchmark than MNIST is.
